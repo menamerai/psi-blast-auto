@@ -1,4 +1,4 @@
-import sele
+from sele import Genome
 
-covid = sele.Genome("MN908947.fna")
+covid = Genome("MN908947.fna")
 covid.psi_blast_search().to_csv("covid.csv")
